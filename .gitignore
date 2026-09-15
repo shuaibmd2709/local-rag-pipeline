@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Vector store (generated data, not source code)
+chroma_db/
+
+# Uploaded files (user data, not source code)
+uploaded_pdfs/
+
+# Environment variables (if you add any secrets later)
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+#Jupyter Notebook
+main.ipynb
